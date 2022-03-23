@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/style/reset.css" />
+    <link rel="stylesheet" href="./src/style/root.css" />
+    <link rel="stylesheet" href="./src/style/container.css" />
+    <link rel="stylesheet" href="./src/style/header-menu/header-menu.css" />
+    <link rel="stylesheet" href="./src/style/gallery/gallery.css" />
+    <link rel="stylesheet" href="./src/style/footer/footer.css" />
+    <link rel="stylesheet" href="./src/style/section-buy/buy.css" />
+    <link
+      rel="shortcut icon"
+      href="src/assets/favicon.ico"
+      type="image/x-icon"
+    />
+    <title>RocketShoes</title>
+  </head>
+  <body>
+    <main id="container">
+      <header class="header-menu">
+        <img src="./src/assets/logo.svg" alt="logo" />
+        <nav class="header-menu-nav">
+          <ul class="header-menu-list">
+            <li class="header-menu-item"><a href="#">Homem</a></li>
+            <li class="header-menu-item"><a href="#">Mulher</a></li>
+            <li class="header-menu-item"><a href="#">Criança</a></li>
+            <li class="header-menu-item"><a href="#">customizar</a></li>
+          </ul>
+        </nav>
+        <div class="search-box">
+          <img src="./src/assets/icon-search.svg" alt="lupa de pesquisa" />
+          <input type="text" placeholder="Buscar" class="search-bar" />
+        </div>
+
+        <img src="./src/assets/icon-bag.svg" alt="ícone de bolsa" />
+      </header>
+
+      <div class="container-content">
+        <section class="section-buy">
+          <div class="box-product">
+            <h3 class="product-title">Tênis Esportivo Para Corrida Top</h3>
+            <p class="description-product">
+              Esse tênis tem o intuito de te deixar ainda mais fitness, focado,
+              e musculoso.
+            </p>
+            <span class="product-price">R$ 1.000,00</span>
+            <button class="button-product">comprar</button>
+          </div>
+        </section>
+
+        <section class="gallery">
+          <div class="showcase">
+            <div class="showcase-image-parent">
+              <img
+                src="./src/assets/tenis-1-ampliado.png"
+                alt="imagem de Tênis"
+              />
+            </div>
+
+            <div class="showcase-children">
+              <figure class="showcase-children-image first">
+                <img
+                  src="./src/assets/tenis-1-galeria.png"
+                  alt="imagem de Tênis"
+                />
+              </figure>
+
+              <figure class="showcase-children-image second">
+                <img
+                  src="./src/assets/tenis-2-galeria.png"
+                  alt="imagem de Tênis"
+                />
+              </figure>
+
+              <figure class="showcase-children-image third">
+                <img
+                  src="./src/assets/tenis-3-galeria.png"
+                  alt="imagem de Tênis"
+                />
+              </figure>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <footer class="footer">
+        <iframe src="./src/assets/img-video.png" class="iframe"></iframe>
+        <nav class="footer-nav">
+          <ul class="footer-list">
+            <li class="footer-list-item"><a href="#">Facebook</a></li>
+            <li class="footer-list-item"><a href="#">Instagram</a></li>
+            <li class="footer-list-item"><a href="#">YouTube</a></li>
+            <li class="footer-list-item"><a href="#">Twitter</a></li>
+          </ul>
+        </nav>
+
+        <div class="explore-box">
+          <span class="explore-text">Explore mais</span>
+          <img src="./src/assets/icon-arrow.svg" alt="icon-arrow" />
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>

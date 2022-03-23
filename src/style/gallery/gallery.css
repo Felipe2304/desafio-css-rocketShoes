@@ -1,0 +1,46 @@
+.gallery {
+  height: 914px;
+  width: 62%;
+  background-color: var(--main-background);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 4rem;
+}
+
+.showcase {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.showcase-image-parent {
+  margin: auto;
+}
+
+.showcase-children {
+  display: flex;
+  justify-content: space-around;
+}
+
+.showcase-children-image.first {
+  width: 32%;
+}
+.showcase-children-image.second {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 29%;
+}
+
+.showcase-children-image.second::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 3px;
+  background-color: var(--button);
+}
+
+.showcase-children-image.third {
+  width: 32%;
+}
